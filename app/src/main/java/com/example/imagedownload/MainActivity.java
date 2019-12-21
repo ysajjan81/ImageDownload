@@ -59,10 +59,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-//        Bitmap bitmap = downloadTask.execute("https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fa%2Faa%2FBart_Simpson_200px.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBart_Simpson&docid=vFAi7OjJ2lytKM&tbnid=NOBTlKyLlEJevM%3A&vet=10ahUKEwj3-6L80sXmAhUiIzQIHY1IBUQQMwh3KAAwAA..i&w=200&h=298&itg=1&bih=751&biw=1536&q=bart%20simpson&ved=0ahUKEwj3-6L80sXmAhUiIzQIHY1IBUQQMwh3KAAwAA&iact=mrc&uact=8");
-       // Button button = findViewById(R.id.downloadButton);
         imageView = findViewById(R.id.imageBox);
-//        imageView.setImageBitmap(bitmap);
     }
 }
