@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     {
         DownloadTask downloadTask = new DownloadTask();
         try {
-            Bitmap bitmapImage = downloadTask.execute("https://upload.wikimedia.org/wikimedia/en/a/aa/Bart_Simpson_200px.png").get();
+            Bitmap bitmapImage = downloadTask.execute("https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png").get();
             imageView.setImageBitmap(bitmapImage);
         } catch (ExecutionException e) {
             e.printStackTrace();
